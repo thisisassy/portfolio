@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Haruka Ashiuchi Portfolio</title>
+    <link>https://portfolio.harukaashiuchi.me/</link>
+    <description>Recent content on Haruka Ashiuchi Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Sun, 17 May 2020 22:03:28 +0900</lastBuildDate>
+    
+	<atom:link href="https://portfolio.harukaashiuchi.me/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello</title>
+      <link>https://portfolio.harukaashiuchi.me/post/2020/05/hello/</link>
+      <pubDate>Sun, 17 May 2020 22:27:41 +0900</pubDate>
+      
+      <guid>https://portfolio.harukaashiuchi.me/post/2020/05/hello/</guid>
+      <description>Hello Hugo Hi, there.</description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>https://portfolio.harukaashiuchi.me/about/</link>
+      <pubDate>Sun, 17 May 2020 22:03:28 +0900</pubDate>
+      
+      <guid>https://portfolio.harukaashiuchi.me/about/</guid>
+      <description>Haruka Ashiuchi I&amp;rsquo;m a Designer based in Japan.</description>
+    </item>
+    
+  </channel>
+</rss>
