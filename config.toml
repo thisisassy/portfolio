@@ -4,7 +4,7 @@ title = "Haruka Ashiuchi Portfolio"
 defaultContentLanguage = "ja"
 hasSJKLanguage = true
 theme = "etch"
-publishDir = "public"
+publishDir = "../public"
 
 [outputs]
     page = ["HTML","AMP"]
