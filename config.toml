@@ -1,0 +1,36 @@
+baseURL = "https://portfolio.harukaashiuchi.me/"
+languageCode = "ja-jp"
+title = "Haruka Ashiuchi Portfolio"
+defaultContentLanguage = "ja"
+hasSJKLanguage = true
+theme = "etch"
+publishDir = "public"
+
+[outputs]
+    page = ["HTML","AMP"]
+ 
+ [Params]
+    profile_image = "images/profile.jpg"
+    eyecatch = "images/eyecatch.jpg"
+    author = "Haruka Ashiuchi"
+
+[taxonomies]
+    tag = "tags"
+
+[permalinks]
+    post = "/:section/:year/:month:/:filename"
+
+[blackfriday]
+    hrefTargetBlank = true
+    nofollowLinks = true
+    extensionsmask = ["autolink"]
+
+[menu]
+    [[menu.global_header]]
+        name = "Home"
+        url = "/"
+        weight = 1
+    [[menu.global_header]]
+        name = "Project"
+        url = "/post"
+        weight = 2
