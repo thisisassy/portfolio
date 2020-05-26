@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html><head>
+    <title>就活日記(0)</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <style type="text/css" media="screen">
+        *, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-family: 'Helvetica Neue', 'Arial', sans-serif;
+    color: #313a3d;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+    line-height: 1.6;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #ebebeb;
+        background: #121212;
+    }
+}
+
+header#banner {
+    margin: 25px 0;
+}
+
+header#banner a {
+    color: #313a3d;
+    text-decoration: none;
+}
+
+header#banner a:hover {
+    text-decoration: underline;
+}
+
+header#banner h2 {
+    display: inline;
+    font-size: 21px;
+    font-size: 2.1rem;
+    margin: 0 8px 0 0;
+}
+
+header#banner nav {
+    display: inline-block;
+}
+
+header#banner nav ul {
+    list-style-type: none;
+    font-size: 1.05em;
+    text-transform: lowercase;
+    margin: 0;
+    padding: 0;
+}
+
+header#banner nav ul li {
+    display: inline;
+    margin: 0 3px;
+}
+
+header#banner nav ul li a {
+    color: #454545;
+}
+
+@media (prefers-color-scheme: dark) {
+    header#banner a {
+        color: #e0e0e0;
+        text-decoration: none;
+    }
+
+    header#banner nav ul li a {
+        color: #cccccc;
+    }
+}
+
+main#content a {
+    color: #007dfa;
+    text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+    main#content a {
+        color: #00b1ed;
+    }
+}
+
+main#content a:hover {
+    text-decoration: underline;
+}
+
+main#content p {
+    color: #394548;
+    margin: 16px 0;
+}
+
+@media (prefers-color-scheme: dark) {
+    main#content p {
+        color: #f5f5f5;
+    }
+}
+
+main#content h1,
+main#content h2,
+main#content h3,
+main#content h4,
+main#content h5,
+main#content h6 {
+    margin-bottom: 0;
+    line-height: 1.15;
+}
+
+main#content h1 + p,
+main#content h2 + p,
+main#content h3 + p,
+main#content h4 + p,
+main#content h5 + p,
+main#content h6 + p {
+    margin-top: 5px;
+}
+
+main#content h3 {
+    font-size: 19px;
+    font-size: 1.9rem;
+}
+
+/* index.html styles */
+main#content ul#posts {
+    list-style-type: none;
+    font-size: 16px;
+    font-size: 1.6rem;
+    margin-top: 0;
+    padding: 0;
+}
+
+main#content ul#posts li {
+    margin: 5px 0;
+    padding: 0;
+}
+
+main#content ul#posts small {
+    font-size: 0.8em;
+    color: #767676;
+    margin-left: 10px;
+}
+
+@media (prefers-color-scheme: dark) {
+    main#content ul#posts small {
+        color: #a7a7a7;
+    }
+}
+
+main#content ul#posts li a {
+    text-decoration: none;
+}
+
+main#content ul#posts li a:hover {
+    color: #369aff;
+}
+
+main#content ul#posts li a:hover small {
+    color: inherit;
+}
+
+@media (prefers-color-scheme: dark) {
+    main#content ul#posts li a:hover {
+        color: #21c7ff;
+    }
+}
+
+/* single.html styles */
+main#content header#post-header h1 {
+    display: block;
+    font-size: 23px;
+    font-size: 2.3rem;
+    line-height: 1.15;
+}
+
+main#content header#post-header time {
+    display: block;
+    font-size: 0.85em;
+    color: #767676;
+}
+
+@media (prefers-color-scheme: dark) {
+    main#content header#post-header time {
+        color: #a7a7a7;
+    }
+}
+
+main#content img {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+main#content code,
+main#content pre {
+    font-family: 'Menlo', monospace;
+}
+
+main#content code {
+    font-size: 0.96em;
+    padding: 0 5px;
+}
+
+main#content pre {
+    display: block;
+    overflow-x: auto;
+    font-size 14px;
+    font-size: 1.4rem;
+    white-space: pre;
+    margin: 20px 0;
+    padding: 1.5rem 1.5rem;
+    line-height: 1.4;
+}
+
+main#content pre code {
+    padding: 0;
+}
+
+footer#footer {
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: #949494;
+    margin: 40px 0;
+}
+
+    </style>
+
+    <style type="text/css" media="(min-width: 770px)">
+        body {
+    width: 600px;
+    line-height: 1.5;
+}
+
+/* index.html styles */
+header#banner h2 {
+    font-size: 25px;
+    font-size: 2.5rem;
+}
+
+main#content h3 {
+    font-size: 20px;
+    font-size: 2rem;
+}
+
+main#content ul#posts {
+    font-size: 18px;
+    font-size: 1.8rem;
+}
+
+/* single.html styles */
+main#content header#post-header h1 {
+    font-size: 26px;
+    font-size: 2.6rem;
+}
+
+main#content img {
+    max-width: 108%;
+    margin-left: -4%;
+}
+
+main#content pre {
+    width: 108%;
+    margin-left: -4%;
+    padding: 1.5rem 2.2rem;
+}
+
+    </style>
+
+    
+
+    <link rel="shortcut icon" href='https://portfolio.harukaashiuchi.me/favicon.ico'>
+</head>
+<body><header id="banner">
+    <h2><a href="https://portfolio.harukaashiuchi.me/">Haruka Ashiuchi Portfolio</a></h2>
+    <nav>
+        <ul>
+            <li><a href="https://portfolio.harukaashiuchi.me/">posts</a></li>
+            
+            <li>
+                <a href="https://portfolio.harukaashiuchi.me/projects/">Projects</a>
+            </li>
+            
+            <li>
+                <a href="https://portfolio.harukaashiuchi.me/amp/about/">about</a>
+            </li>
+            
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>就活日記(0)</h1><time>May 26, 2020</time></header><h2 id="これからの生き方について考える">これからの生き方について考える</h2>
+<p>考えてもなにも見えてこない。</p>
+<p>以下、4月より前に就活しようと思って書いていた文章。（一部加筆）
+現在は1月から書店でサイト更新の業務と週に2日京都へ行ってデザインのバイトをしています。<br>
+4月、5月は感染症予防対策のため、書店は休業、デザインバイトは在宅勤務となりました。</p>
+<hr>
+<p>9月末に退職して、20代で2度目の無職を経験しました。</p>
+<p>思えば大学の頃の就活の意識の低さ、社会や企業、Web /IT企業の業界知識の無さなど自分の無知・怠慢さが仇となってしまったのが要因だと思われます。新卒で入った会社の制作体制に不満があって、自分もダメダメでした。ダメな新卒がダメな会社で成長できそうにもなかったので1年で辞めてしまいました。</p>
+<p>一応は転職先が決まってから退職したのですが、ここでの失敗が、抑うつ症をきちんと直さずに次を決めてしまったこと。ここで一回地元に戻るべきでした。
+2社目は最初の方はまあまあうまくやれていたと思います。ただ社内に薄く蔓延する遅くまで仕事してがんばるというがんばりの強要が合いませんでした。
+結局ここでも適応障害を発症して再度通院しました。わずか7ヶ月で退職しました。
+その後、実家へ戻り3ヶ月間の無職期間で味わった虚無感と社会的立場の無さを痛感しました。</p>
+<p>転職しようにも、また失敗したくないし、スキル不足と経歴の不味さがあるのでひとまず今はVMDなどのアルバイトとして働いています。バイトだと受かるんですよね。</p>
+<p>このままフリーターというわけにもいかないので、もう一度就職活動しようと思います。今から始めた4月から正社員になれるでしょうか？</p>
+<p><a href="https://laiso.hatenablog.com/entry/2014/01/11/%E5%B0%B1%E6%B4%BB%E6%97%A5%E8%A8%98_(0)_%E3%82%A8%E3%83%B3%E3%83%88%E3%83%AA%E3%83%BC">就活日記 (0) エントリー</a></p>
+<p>こちらの記事を見つけて自分も同じようにしていこうかなと思い、今これを書いています。</p>
+<h3 id="働きたい会社の基準">働きたい会社の基準</h3>
+<ul>
+<li>ウェブ、映像、インタラクション、アプリ、サービスなど作るものは企画から考えてデザイン・実装まで一通りやるところがいい。受託開発でもいいですが、できれば自社サービスやプロダクトを持っている会社がいいです。</li>
+<li>HTML/CSS(SCSS), JavaScript, React, Flutter(Dart)などを使用していると自分のスキルが少しでも活かせる。</li>
+<li>デザイナー、エンジニアとしてきっぱり境界が分かれていないといい。デザイナーでもコード書くとなおよい</li>
+<li>社内社外でも勉強会やアウトプットできる機会が用意されている環境がいい</li>
+<li>地域デザインや行政と組んで実社会にアウトプットしてるといい。地域や日本に貢献しており、デザインで少しづつ社会を良くしているんだという感覚が持てるところがいい</li>
+<li>アートやカルチャーがあること。それを展開できるとなお良い</li>
+<li>優しい人が多いと嬉しい。圧が強い人とはちょっと適応できません。</li>
+</ul>
+<h3 id="なければない方がいい">なければない方がいい</h3>
+<ul>
+<li>
+<p>上記にもありますが、圧が強くてプレッシャーを感じる人。</p>
+</li>
+<li>
+<p>ウェブの知識がほぼない新卒ディレクター</p>
+<ul>
+<li>できればきちんとディレクションできる人と働きたい</li>
+</ul>
+</li>
+<li>
+<p>めちゃくちゃ静かすぎる環境。聴覚過敏なので、静かな環境でのマウスやクリック音が余計に気になります。ほどほどに雑談がある方がいいです。</p>
+</li>
+</ul>
+<p>今年の半年から1年はギャップイヤーにしようと思います。大学卒業して2年が経つけど、昔の自分はあまり周りのことや社会、働くことについてよくわかっていませんでした。なので、少しずつ働いたり、本読んだり、ニュース見たりして社会や会社の仕組みなどを知ることから始めています。</p>
+<p>今まで面接して一番働いてみたいなと思ったのは、CINRAさんなのですが、技術が足りませんでした。ただ不採用メールで、嬉しいコメントを頂きました。技術身につけてもう一回受けてみようかな。</p>
+<p>就職活動をやるにあたって、Facebookやwantedlyのアカウントは必要になるのでしょうか？できればアカウントを作りたくないのですが、企業訪問するならあった方がいいよね。</p>
+<p>SNS辞めたくていろいろアカウント削除したのですが、普通に友達との縁が切れました。ソーシャルで繋がっていないと連絡取れない人って、友達と言えるのでしょうか？よく分かりません。</p>
+<p>ともかく就活用に作ります。</p>
+<hr>
+<p>このときからすでに半年近く経とうとしています。もう6月になるの。。
+全国で緊急事態宣言が解除されてから、職場の休業要請もなくなり書店の方は6月からまた働きます。
+デザインバイトは引き続き在宅勤務になります。</p>
+<p>ときどき考えるのですが、このまま生活していていいのかな。ちゃんと働いた方がお金貯まるし、親から離れて暮らすこともできる。
+でも、できれば来年はワーホリでエストニアに行きたいと思っています。
+フリーターが少ない賃金で金貯めるには実家暮らしが一番だし、来年海外行くつもりなのに今から正社員になって1年で辞めてもまた短期間の離職が経歴として残るだけ。
+しかも正社員になるためには、今のバイトを数ヶ月の在職で辞めなきゃいけないし、ていうか今の自分が1日8時間、週5日も働ける人間ではない。</p>
+<p>などなどいろいろ考えると、やっぱりこの一年はいまの生活のままでいいかな〜と思っています。</p>
+<p>就活とは離れてしまいましたが、コロナが落ち着いた今、社会勉強と業界を知るためにカジュアルな就活をしてみようと思います。
+Facebookのアカウントは削除しました。moreworksやCINRA.JOBのサイトを開くと前職の写真がでてきて嫌な気分になります。</p>
+<p>つぎは試しに気になる企業にエントリーしてみようと思います。</p>
+</article>
+
+        </main><footer id="footer">
+    
+</footer>
+</body>
+</html>
