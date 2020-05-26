@@ -1,9 +1,9 @@
 baseURL = "https://portfolio.harukaashiuchi.me/"
 languageCode = "ja-jp"
-title = "Haruka Ashiuchi Portfolio"
+title = "Haruka Ashiuchi"
 defaultContentLanguage = "ja"
 hasSJKLanguage = true
-theme = "etch"
+theme = "Academia"
 publishDir = "docs"
 
 [outputs]
