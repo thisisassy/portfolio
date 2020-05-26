@@ -32,7 +32,7 @@ publishDir = "docs"
         weight = 1
     [[menu.global_header]]
         name = "Project"
-        url = "/project"
+        url = "/projects"
         weight = 2
     [[menu.global_header]]
         name = "Blog"
