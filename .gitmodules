@@ -1,0 +1,3 @@
+[submodule "themes/Academia"]
+	path = themes/Academia
+	url = git@github.com:thisisassy/Academia.git
